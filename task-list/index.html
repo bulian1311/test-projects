@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Task List</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <main role="main" class="container">
+    <div class="d-flex align-items-center p-3 text-white-50 bg-blue rounded box-shadow">
+      <img class="mr-3" src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-outline.svg" alt="" width="48" height="48">
+      <div class="lh-100">
+        <h6 class="mb-0 text-white lh-100">TaskList</h6>
+      </div>
+    </div>
+
+    <div class="my-3 p-3 bg-white rounded box-shadow">
+      <form id="task-form">
+        <div class="form-group">
+          <label for="task">Добавить задачу</label>
+          <input id="task-input" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Добавить</button>
+        <div class="pt-3 form-group">
+          <label for="task">Отфильтровать задачи</label>
+          <input id="task-filter" type="email" class="form-control">
+        </div>
+      </form>
+
+      <ul id="task-list" class="list-group pt-3">
+
+      </ul>
+
+      <small class="d-block text-right mt-3">
+          <a id="task-clear" href="#">Очистить список</a>
+        </small>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
