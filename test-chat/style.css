@@ -114,6 +114,12 @@ body {
   padding: 6px;
 }
 
+.message {
+  width: 100%;
+  height: 85%;
+  overflow: auto;
+}
+
 .message1 {
   padding: 20px;
   margin: 7% 15%;
